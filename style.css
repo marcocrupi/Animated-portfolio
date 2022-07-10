@@ -59,6 +59,11 @@ section{
    text-align: center;
 }
 
+.aboutme {
+   text-align: left;
+   text-transform: none;
+}
+
 .heading{
    margin-bottom: 3rem;
    text-align: center;
