@@ -496,6 +496,13 @@ section{
 
 }
 
+@media (max-width:600px){
+   .home .image img{
+      height: auto;
+      width: 100%;
+   }
+}
+
 @media (max-width:450px){
 
    html{
@@ -508,11 +515,6 @@ section{
 
    #menu-btn.fa-times{
       right:0;
-   }
-
-   .home .image img{
-      height: auto;
-      width: 100%;
    }
 
    .heading span{
