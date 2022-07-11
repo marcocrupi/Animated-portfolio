@@ -214,6 +214,10 @@ section {
   transition: all 1s ease-out;
 }
 
+.m {
+   color: red;
+}
+
 .box.textEffect {
   display: inline-block;
   animation: rubberBand;
