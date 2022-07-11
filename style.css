@@ -215,7 +215,6 @@ section {
   color: var(--red);
   text-shadow: -1px 0 #08fdd8, -2px 0 #08fdd8, -3px 0 #08fdd8;
   display: inline-block;
-  transform: rotate(360deg);
   opacity: 1;
   transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
   margin: -1rem;
