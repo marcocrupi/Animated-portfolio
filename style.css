@@ -2,6 +2,7 @@
 
 :root {
   --yellow: #ffcc0d;
+  --red: red;
   --black: #000;
   --white: #fff;
   --light-bg: #eee;
@@ -196,11 +197,36 @@ section {
 .home .content {
   flex: 1 1 40rem;
   text-align: left;
+  margin-left: 1rem;
 }
 
 .home .content h3 {
   font-size: 10rem;
   margin-bottom: 0.5rem;
+  -webkit-transform: translate(-150%, -150%);
+  -ms-transform: translate(-150%, -150%);
+  transform: translate(-150%, -150%);
+}
+
+.Mlast {
+  font-size: 120%;
+  font-stretch: narrower;
+  padding: 4px;
+  color: var(--red);
+  text-shadow: -1px 0 #08fdd8, -2px 0 #08fdd8, -3px 0 #08fdd8;
+  display: inline-block;
+  transform: rotate(360deg);
+  opacity: 1;
+  transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
+  margin: -1rem;
+  text-transform: none;
+}
+
+.Mlast:hover {
+  display: inline-block;
+  transform: rotate(180deg);
+  transition-delay: 0ms;
+  transition-duration: 0.3s;
 }
 
 .box {
@@ -209,19 +235,17 @@ section {
 }
 
 .box:hover {
-  color: var(--yellow);
+  color: var(--red);
   -webkit-transition: all 1s ease-out;
   transition: all 1s ease-out;
-}
-
-.m {
-   color: red;
+  transition-delay: 0ms;
 }
 
 .box.textEffect {
   display: inline-block;
   animation: rubberBand;
   animation-duration: 1s;
+  transition-delay: 0ms;
 }
 
 .subHeading {
@@ -230,6 +254,7 @@ section {
   background-color: var(--yellow);
   font-size: 2.5rem;
   margin: 1rem 0;
+  text-transform: uppercase;
 }
 
 /* .home .content p{
