@@ -229,19 +229,19 @@ section {
   transition-duration: 0.3s;
 }
 
-.box {
+.content .box {
   margin: -1rem;
   text-transform: none;
 }
 
-.box:hover {
+.content .box:hover {
   color: var(--red);
   -webkit-transition: all 1s ease-out;
   transition: all 1s ease-out;
   transition-delay: 0ms;
 }
 
-.box.textEffect {
+.content .box.textEffect {
   display: inline-block;
   animation: rubberBand;
   animation-duration: 1s;
