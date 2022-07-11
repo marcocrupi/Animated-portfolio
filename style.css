@@ -203,11 +203,6 @@ section {
 .home .content h3 {
   font-size: 10rem;
   margin-bottom: 0.5rem;
-  -webkit-transform: translate(-100%, -100%);
-  -ms-transform: translate(-100%, -100%);
-  transform: translate(-100%, -100%);
-
-
   animation: rubberBand;
   animation-duration: 1s;
   transition-delay: 0ms;
