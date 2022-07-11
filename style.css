@@ -57,11 +57,7 @@ section{
    margin: 0 auto;
    max-width: 1200px;
    text-align: center;
-}
-
-.aboutme {
-   text-align: left;
-   text-transform: none;
+   font-size: 4rem;
 }
 
 .heading{
@@ -212,9 +208,10 @@ section{
 }
 
 .home .content p{
-   font-size: 1.7rem;
+   font-size: 1.8rem;
    line-height: 2;
    padding:1rem 0;
+   text-transform: none;
 }
 
 .about .biography p{
