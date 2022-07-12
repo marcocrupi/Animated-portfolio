@@ -377,6 +377,7 @@ section {
   margin-bottom: 1rem;
   text-transform: uppercase;
   color: var(--thirdColor);
+  font-weight: bold;
 }
 
 /* .home .content p{
@@ -943,6 +944,7 @@ section {
     margin-bottom: 1rem;
     text-transform: uppercase;
     color: var(--thirdColor);
+    font-weight: bold;
   }
 }
 
@@ -996,6 +998,7 @@ section {
     margin-bottom: 1rem;
     text-transform: uppercase;
     color: var(--thirdColor);
+    font-weight: bold;
   }
 }
 
@@ -1044,12 +1047,14 @@ section {
     display: inline-block;
     padding: 1rem 2rem;
     background: var(--secondColor);
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: 2rem;
-    width: max-content;
+    width: auto;
     margin-bottom: 1rem;
     text-transform: uppercase;
     color: var(--thirdColor);
+    text-align: center;
+    font-weight: bold;
   }
 }
 
@@ -1136,6 +1141,7 @@ section {
     text-transform: uppercase;
     color: var(--thirdColor);
     text-align: center;
+    font-weight: bold;
   }
 }
 
@@ -1213,6 +1219,7 @@ section {
     text-transform: uppercase;
     color: var(--thirdColor);
     text-align: center;
+    font-weight: bold;
   }
 }
 
@@ -1270,6 +1277,7 @@ section {
     text-transform: uppercase;
     color: var(--thirdColor);
     text-align: center;
+    font-weight: bold;
   }
 }
 
@@ -1327,5 +1335,6 @@ section {
     text-transform: uppercase;
     color: var(--thirdColor);
     text-align: center;
+    font-weight: bold;
   }
 }
