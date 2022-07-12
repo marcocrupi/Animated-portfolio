@@ -698,14 +698,10 @@ section {
   }
 }
 
-@media (max-width: 600px) {
-  .home .image img {
-    height: auto;
-    width: 100%;
-  }
-
-  .home .content .btn {
-    width: 30%;
+@media (max-width: 768px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
   }
 }
 
@@ -723,6 +719,35 @@ section {
 @media (max-width: 500px) {
   .home .content .btn {
     width: 35%;
+  }
+}
+
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-col h4::before {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .footer .container .footer-col .info {
+    display: inline;
+  }
+
+  .footer .container .footer-col .info i {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  .footer .container .footer-col .first i {
+    margin-top: 0rem;
   }
 }
 
