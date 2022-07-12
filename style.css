@@ -814,7 +814,7 @@ section {
     font-size: 9rem;
     font-stretch: narrower;
     color: var(--firstColor);
-    text-shadow: -1px 0 var(--secondColor), -2px 0 var(--secondColor),
+    text-shadow: -3px 0 var(--secondColor), -2px 0 var(--secondColor),
       -3px 0 var(--secondColor);
     display: inline-block;
     opacity: 1;
@@ -863,8 +863,8 @@ section {
     font-size: 9rem;
     font-stretch: narrower;
     color: var(--firstColor);
-    text-shadow: -1px 0 var(--secondColor), -2px 0 var(--secondColor),
-      -3px 0 var(--secondColor);
+    text-shadow: -3px 0 var(--secondColor), -2px 0 var(--secondColor),
+    -3px 0 var(--secondColor);
     display: inline-block;
     opacity: 1;
     transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
@@ -925,8 +925,8 @@ section {
     font-size: 9rem;
     font-stretch: narrower;
     color: var(--firstColor);
-    text-shadow: -1px 0 var(--secondColor), -2px 0 var(--secondColor),
-      -3px 0 var(--secondColor);
+    text-shadow: -3px 0 var(--secondColor), -2px 0 var(--secondColor),
+    -3px 0 var(--secondColor);
     display: inline-block;
     opacity: 1;
     transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
@@ -980,8 +980,8 @@ section {
     font-size: 7rem;
     font-stretch: narrower;
     color: var(--firstColor);
-    text-shadow: -1px 0 var(--secondColor), -2px 0 var(--secondColor),
-      -3px 0 var(--secondColor);
+    text-shadow: -3px 0 var(--secondColor), -2px 0 var(--secondColor),
+    -3px 0 var(--secondColor);
     display: inline-block;
     opacity: 1;
     transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
@@ -1037,8 +1037,8 @@ section {
     font-size: 6rem;
     font-stretch: narrower;
     color: var(--firstColor);
-    text-shadow: -1px 0 var(--secondColor), -2px 0 var(--secondColor),
-      -3px 0 var(--secondColor);
+    text-shadow: -3px 0 var(--secondColor), -2px 0 var(--secondColor),
+    -3px 0 var(--secondColor);
     display: inline-block;
     opacity: 1;
     transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
@@ -1125,8 +1125,8 @@ section {
     font-size: 5rem;
     font-stretch: narrower;
     color: var(--firstColor);
-    text-shadow: -1px 0 var(--secondColor), -2px 0 var(--secondColor),
-      -3px 0 var(--secondColor);
+    text-shadow: -3px 0 var(--secondColor), -2px 0 var(--secondColor),
+    -3px 0 var(--secondColor);
     display: inline-block;
     opacity: 1;
     transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
@@ -1148,7 +1148,7 @@ section {
     background: var(--secondColor);
     font-size: 2rem;
     margin-top: 2rem;
-    width:100%;
+    width: 100%;
     margin-bottom: 1rem;
     text-transform: uppercase;
     color: var(--thirdColor);
@@ -1209,8 +1209,8 @@ section {
     font-size: 5rem;
     font-stretch: narrower;
     color: var(--firstColor);
-    text-shadow: -1px 0 var(--secondColor), -2px 0 var(--secondColor),
-      -3px 0 var(--secondColor);
+    text-shadow: -3px 0 var(--secondColor), -2px 0 var(--secondColor),
+    -3px 0 var(--secondColor);
     display: inline-block;
     opacity: 1;
     transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
@@ -1238,8 +1238,6 @@ section {
     color: var(--thirdColor);
     text-align: center;
   }
-
-
 }
 
 @media (max-width: 400px) {
@@ -1271,8 +1269,8 @@ section {
     font-size: 5rem;
     font-stretch: narrower;
     color: var(--firstColor);
-    text-shadow: -1px 0 var(--secondColor), -2px 0 var(--secondColor),
-      -3px 0 var(--secondColor);
+    text-shadow: -3px 0 var(--secondColor), -2px 0 var(--secondColor),
+    -3px 0 var(--secondColor);
     display: inline-block;
     opacity: 1;
     transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
@@ -1331,8 +1329,8 @@ section {
     font-size: 5rem;
     font-stretch: narrower;
     color: var(--firstColor);
-    text-shadow: -1px 0 var(--secondColor), -2px 0 var(--secondColor),
-      -3px 0 var(--secondColor);
+    text-shadow: -3px 0 var(--secondColor), -2px 0 var(--secondColor),
+    -3px 0 var(--secondColor);
     display: inline-block;
     opacity: 1;
     transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
