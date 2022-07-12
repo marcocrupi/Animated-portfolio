@@ -1096,7 +1096,7 @@ section {
   }
 }
 
-@media (max-width: 492px) {
+@media (max-width: 500px) {
   .home .image {
     flex: 1 1 15rem;
   }
@@ -1156,7 +1156,7 @@ section {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 455px) {
   html {
     font-size: 50%;
   }
