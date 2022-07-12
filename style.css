@@ -323,7 +323,7 @@ section {
 .home .content h3 {
   font-size: 10rem;
   margin-bottom: 0.5rem;
-  animation: rubberBand 2s;
+  animation: bounceInDown 2s;
   transition-delay: 0ms;
 }
 
