@@ -281,14 +281,14 @@ section {
 #menu-btn {
   position: absolute;
   top: 0;
-  right: -5.5rem;
-  height: 4.5rem;
-  line-height: 4.5rem;
-  width: 5rem;
-  font-size: 2.5rem;
+  right: -7.5rem;
+  height: 7rem;
+  line-height: 7rem;
+  width: 7rem;
+  font-size: 4.5rem;
   cursor: pointer;
-  background-color: var(--thirdColor);
-  color: var(--fourthColor);
+  background-color: var(--fourthColor);
+  color: var(--thirdColor);
 }
 
 .header.active {
@@ -865,7 +865,7 @@ section {
     font-stretch: narrower;
     color: var(--firstColor);
     text-shadow: -3px 0 var(--secondColor), -2px 0 var(--secondColor),
-    -3px 0 var(--secondColor);
+      -3px 0 var(--secondColor);
     display: inline-block;
     opacity: 1;
     transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
@@ -927,7 +927,7 @@ section {
     font-stretch: narrower;
     color: var(--firstColor);
     text-shadow: -3px 0 var(--secondColor), -2px 0 var(--secondColor),
-    -3px 0 var(--secondColor);
+      -3px 0 var(--secondColor);
     display: inline-block;
     opacity: 1;
     transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
@@ -982,7 +982,7 @@ section {
     font-stretch: narrower;
     color: var(--firstColor);
     text-shadow: -3px 0 var(--secondColor), -2px 0 var(--secondColor),
-    -3px 0 var(--secondColor);
+      -3px 0 var(--secondColor);
     display: inline-block;
     opacity: 1;
     transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
@@ -1039,7 +1039,7 @@ section {
     font-stretch: narrower;
     color: var(--firstColor);
     text-shadow: -3px 0 var(--secondColor), -2px 0 var(--secondColor),
-    -3px 0 var(--secondColor);
+      -3px 0 var(--secondColor);
     display: inline-block;
     opacity: 1;
     transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
@@ -1127,7 +1127,7 @@ section {
     font-stretch: narrower;
     color: var(--firstColor);
     text-shadow: -3px 0 var(--secondColor), -2px 0 var(--secondColor),
-    -3px 0 var(--secondColor);
+      -3px 0 var(--secondColor);
     display: inline-block;
     opacity: 1;
     transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
@@ -1207,7 +1207,7 @@ section {
     font-stretch: narrower;
     color: var(--firstColor);
     text-shadow: -3px 0 var(--secondColor), -2px 0 var(--secondColor),
-    -3px 0 var(--secondColor);
+      -3px 0 var(--secondColor);
     display: inline-block;
     opacity: 1;
     transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
@@ -1267,7 +1267,7 @@ section {
     font-stretch: narrower;
     color: var(--firstColor);
     text-shadow: -3px 0 var(--secondColor), -2px 0 var(--secondColor),
-    -3px 0 var(--secondColor);
+      -3px 0 var(--secondColor);
     display: inline-block;
     opacity: 1;
     transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
@@ -1327,7 +1327,7 @@ section {
     font-stretch: narrower;
     color: var(--firstColor);
     text-shadow: -3px 0 var(--secondColor), -2px 0 var(--secondColor),
-    -3px 0 var(--secondColor);
+      -3px 0 var(--secondColor);
     display: inline-block;
     opacity: 1;
     transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
