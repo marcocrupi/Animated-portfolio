@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
 
 :root {
-  --yellow: #ffcc0d;
-  --red: red;
-  --black: #000;
-  --white: #fff;
-  --light-bg: #eee;
-  --border-bold: 0.5rem solid var(--black);
-  --border-light: 0.2rem solid var(--black);
+  --firstColor: #f51701;
+  --secondColor: #00f506;
+  --thirdColor: #000;
+  --fourthColor: #fff;
+  --fifthColor: #eee;
+  --sixthColor: #c4f518;
+  --seventhColor: #00f4f4;
+  --border-bold: 0.5rem solid var(--thirdColor);
+  --border-light: 0.2rem solid var(--thirdColor);
+  --gradient: linear-gradient(90deg, var(--secondColor), var(--firstColor));
 }
 
 * {
@@ -19,12 +22,12 @@
   border: none;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--black);
+  color: var(--thirdColor);
 }
 
 *::selection {
-  background-color: var(--black);
-  color: var(--yellow);
+  background-color: var(--thirdColor);
+  color: var(--firstColor);
 }
 
 *::-webkit-scrollbar {
@@ -37,7 +40,7 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: var(--yellow);
+  background-color: var(--secondColor);
 }
 
 html {
@@ -56,7 +59,7 @@ body.active {
 }
 
 section {
-  padding: 3rem 2rem;
+  padding: 5rem 2rem;
   margin: 0 auto;
   max-width: 1200px;
   text-align: center;
@@ -68,9 +71,19 @@ section {
   text-align: center;
 }
 
+.headingh2 {
+  margin-bottom: 3rem;
+}
+
 .heading span {
   text-transform: uppercase;
   font-size: 6.5rem;
+  border-bottom: var(--border-bold);
+}
+
+.headingh2 span {
+  text-transform: uppercase;
+  font-size: 5rem;
   border-bottom: var(--border-bold);
 }
 
@@ -79,7 +92,7 @@ section {
   top: 2rem;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: var(--yellow);
+  background-color: var(--firstColor);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -102,8 +115,8 @@ section {
 }
 
 .btn:hover {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--thirdColor);
+  color: var(--fourthColor);
 }
 
 .header {
@@ -111,7 +124,7 @@ section {
   top: 0;
   left: -35rem;
   height: 100vh;
-  background-color: var(--white);
+  background-color: var(--fourthColor);
   border-right: var(--border-bold);
   width: 35rem;
   padding: 3rem 2rem;
@@ -145,7 +158,7 @@ section {
 
 .header .navbar a.active,
 .header .navbar a:hover {
-  background-color: var(--yellow);
+  background-color: var(--secondColor);
 }
 
 .header .follow a {
@@ -168,8 +181,8 @@ section {
   width: 5rem;
   font-size: 2.5rem;
   cursor: pointer;
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--thirdColor);
+  color: var(--fourthColor);
 }
 
 .header.active {
@@ -211,8 +224,9 @@ section {
   font-size: 120%;
   font-stretch: narrower;
   padding: 4px;
-  color: var(--red);
-  text-shadow: -1px 0 #08fdd8, -2px 0 #08fdd8, -3px 0 #08fdd8;
+  color: var(--firstColor);
+  text-shadow: -1px 0 var(--secondColor), -2px 0 var(--secondColor),
+    -3px 0 var(--secondColor);
   display: inline-block;
   opacity: 1;
   transition: opacity 0.3s 0.5s ease, transform 0.25s 0.5s ease;
@@ -233,7 +247,7 @@ section {
 }
 
 .content .box:hover {
-  color: var(--red);
+  color: var(--secondColor);
   -webkit-transition: all 1s ease-out;
   transition: all 1s ease-out;
   transition-delay: 0ms;
@@ -249,10 +263,11 @@ section {
 .subHeading {
   display: inline-block;
   padding: 1rem 2rem;
-  background-color: var(--yellow);
+  background: var(--secondColor);
   font-size: 2.5rem;
   margin: 1rem 0;
   text-transform: uppercase;
+  color: var(--thirdColor);
 }
 
 /* .home .content p{
@@ -278,7 +293,7 @@ section {
   padding: 1rem 2rem;
   display: inline-block;
   margin: 1rem;
-  background-color: var(--light-bg);
+  background-color: var(--fifthColor);
   border: var(--border-light);
   word-break: break-all;
   font-size: 2.5rem;
@@ -288,6 +303,10 @@ section {
 
 .about .biography .bio h3 span {
   font-weight: lighter;
+}
+
+.skills,.edu-exp {
+  padding: 3rem 0;
 }
 
 .about .skills {
@@ -311,7 +330,7 @@ section {
   justify-content: space-between;
   font-size: 2rem;
   padding: 1rem 2rem;
-  background-color: var(--yellow);
+  background-color: var(--secondColor);
 }
 
 .about .skills .progress .bar span {
@@ -347,13 +366,13 @@ section {
 .about .edu-exp .row .box-container .title {
   padding: 1.5rem;
   font-size: 3rem;
-  background-color: var(--yellow);
+  background-color: var(--secondColor);
 }
 
 .about .edu-exp .row .box-container .box {
   text-align: left;
   margin: 1.5rem 0;
-  background-color: var(--light-bg);
+  background-color: var(--fifthColor);
   padding: 2rem;
 }
 
@@ -395,7 +414,7 @@ section {
   margin: 1rem 0;
   font-size: 2rem;
   padding: 1.5rem;
-  background-color: var(--yellow);
+  background-color: var(--secondColor);
   font-weight: normal;
 }
 
@@ -405,15 +424,15 @@ section {
 }
 
 .services .box-container .box:hover {
-  background-color: var(--black);
+  background-color: var(--thirdColor);
 }
 
 .services .box-container .box:hover i {
-  color: var(--white);
+  color: var(--fourthColor);
 }
 
 .services .box-container .box:hover p {
-  color: var(--white);
+  color: var(--fourthColor);
 }
 
 .portfolio .box-container {
@@ -495,8 +514,8 @@ section {
   height: 7rem;
   width: 7rem;
   line-height: 7rem;
-  color: var(--white);
-  background-color: var(--black);
+  color: var(--fourthColor);
+  background-color: var(--thirdColor);
   margin-bottom: 0.5rem;
 }
 
@@ -510,16 +529,16 @@ section {
   text-transform: none;
 }
 
-.credit {
+.csecondColorit {
   text-align: center;
-  background-color: var(--black);
+  background-color: var(--thirdColor);
   padding: 3rem;
   font-size: 2rem;
-  color: var(--white);
+  color: var(--fourthColor);
 }
 
-.credit span {
-  color: var(--yellow);
+.csecondColorit span {
+  color: var(--firstColor);
 }
 
 /* media queries  */
@@ -558,7 +577,6 @@ section {
   .home .content .btn {
     width: 25%;
   }
-
 }
 
 @media (max-width: 600px) {
