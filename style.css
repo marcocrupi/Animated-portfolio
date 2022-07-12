@@ -177,7 +177,8 @@ section {
   font-size: 6.5rem;
   border-bottom: var(--border-bold);
   color: var(--firstColor);
-  text-shadow: -3px 0 var(--secondColor), -3px 0 var(--secondColor);
+  text-shadow: -4px 0 var(--secondColor), -3px 0 var(--secondColor);
+  letter-spacing: 0.5rem;
 }
 
 .headingh2 span {
@@ -1167,10 +1168,6 @@ section {
 
   #menu-btn.fa-times {
     right: 0;
-  }
-
-  .heading span {
-    font-size: 4rem;
   }
 
   .about .biography .bio h3 {
