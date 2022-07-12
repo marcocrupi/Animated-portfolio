@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
 
 :root {
-  --firstColor: #f51701;
+  --firstColor: #e52715;
   --secondColor: #00f506;
   --thirdColor: #000;
   --fourthColor: #fff;
@@ -52,6 +52,59 @@ html {
 body {
   overflow: hidden;
   transition: 0.2s linear !important;
+
+  background: linear-gradient(37deg, #6de9f7, #45ccff, #30c1d9, #3077d9);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 26s ease infinite;
+  -moz-animation: AnimationName 26s ease infinite;
+  -o-animation: AnimationName 26s ease infinite;
+  animation: AnimationName 26s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 96% 0%;
+  }
+  50% {
+    background-position: 5% 100%;
+  }
+  100% {
+    background-position: 96% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 96% 0%;
+  }
+  50% {
+    background-position: 5% 100%;
+  }
+  100% {
+    background-position: 96% 0%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 96% 0%;
+  }
+  50% {
+    background-position: 5% 100%;
+  }
+  100% {
+    background-position: 96% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 96% 0%;
+  }
+  50% {
+    background-position: 5% 100%;
+  }
+  100% {
+    background-position: 96% 0%;
+  }
 }
 
 body.active {
@@ -80,6 +133,7 @@ section {
   font-size: 6.5rem;
   border-bottom: var(--border-bold);
   color: var(--firstColor);
+  text-shadow: -1px 0 var(--secondColor), -2px 0 var(--secondColor);
 }
 
 .headingh2 span {
@@ -221,7 +275,7 @@ section {
   transition-delay: 0ms;
 }
 
-.Mlast {
+.mLast {
   font-size: 120%;
   font-stretch: narrower;
   padding: 4px;
@@ -235,7 +289,7 @@ section {
   text-transform: none;
 }
 
-.Mlast:hover {
+.mLast:hover {
   display: inline-block;
   transform: rotate(180deg);
   transition-delay: 0ms;
@@ -249,8 +303,8 @@ section {
 
 .content .box:hover {
   color: var(--secondColor);
-  -webkit-transition: all 1s ease-out;
-  transition: all 1s ease-out;
+  -webkit-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
   transition-delay: 0ms;
 }
 
@@ -266,7 +320,8 @@ section {
   padding: 1rem 2rem;
   background: var(--secondColor);
   font-size: 2.5rem;
-  margin: 1rem 0;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
   color: var(--thirdColor);
 }
@@ -304,6 +359,10 @@ section {
 
 .about .biography .bio h3 span {
   font-weight: lighter;
+}
+
+.bLast {
+  color: var(--firstColor);
 }
 
 .skills,
@@ -552,6 +611,7 @@ section {
 .footer .container .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .footer .container .row ul {
   list-style: none;
@@ -561,7 +621,7 @@ section {
   padding-top: 2.5rem;
 }
 .footer-col {
-  width: 25%;
+  width: 30%;
   padding: 0 15px;
 }
 .footer-col h4 {
@@ -619,7 +679,7 @@ section {
   background: var(--secondColor);
 }
 
-.footer .container .footer-col .info {
+/* .footer .container .footer-col .info {
   display: flex;
   align-items: center;
 }
@@ -640,7 +700,7 @@ section {
 .footer .container .row .info p {
   color: #fff;
   font-size: 1.4rem;
-}
+} */
 
 .footer .credit {
   margin-top: 2.5rem;
