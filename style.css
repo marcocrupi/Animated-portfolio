@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
 
 :root {
-  --firstColor: #e52715;
+  --firstColor: #ff1500;
   --secondColor: #00f506;
   --thirdColor: #000;
   --fourthColor: #fff;
   --fifthColor: #eee;
   --sixthColor: #c4f518;
   --seventhColor: #00f4f4;
-  --border-bold: 0.5rem solid var(--thirdColor);
-  --border-light: 0.2rem solid var(--thirdColor);
+  --border-bold: 0.5rem solid var(--fourthColor);
+  --border-light: 0.2rem solid var(--fourthColor);
+  --border-boldV: 0.5rem solid var(--thirdColor);
+  --border-lightV: 0.2rem solid var(--thirdColor);
   --gradient: linear-gradient(90deg, var(--secondColor), var(--firstColor));
 }
 
@@ -53,8 +55,8 @@ body {
   overflow: hidden;
   transition: 0.2s linear !important;
 
-  background: linear-gradient(37deg, #6de9f7, #45ccff, #30c1d9, #3077d9);
-  background-size: 800% 800%;
+  background: linear-gradient(37deg, #450096, #7900d4, #9f00bf);
+  background-size: 600% 600%;
 
   -webkit-animation: AnimationName 26s ease infinite;
   -moz-animation: AnimationName 26s ease infinite;
@@ -107,6 +109,48 @@ body {
   }
 }
 
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 96% 0%;
+  }
+
+  50% {
+    background-position: 5% 100%;
+  }
+
+  100% {
+    background-position: 96% 0%;
+  }
+}
+
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 96% 0%;
+  }
+
+  50% {
+    background-position: 5% 100%;
+  }
+
+  100% {
+    background-position: 96% 0%;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 96% 0%;
+  }
+
+  50% {
+    background-position: 5% 100%;
+  }
+
+  100% {
+    background-position: 96% 0%;
+  }
+}
+
 body.active {
   padding-left: 35rem;
 }
@@ -133,13 +177,14 @@ section {
   font-size: 6.5rem;
   border-bottom: var(--border-bold);
   color: var(--firstColor);
-  text-shadow: -1px 0 var(--secondColor), -2px 0 var(--secondColor);
+  text-shadow: -3px 0 var(--secondColor), -3px 0 var(--secondColor);
 }
 
 .headingh2 span {
   text-transform: uppercase;
   font-size: 5rem;
   border-bottom: var(--border-bold);
+  color: var(--fourthColor);
 }
 
 .message {
@@ -167,6 +212,7 @@ section {
   border: var(--border-light);
   font-size: 2rem;
   background: none;
+  color: var(--fourthColor);
 }
 
 .btn:hover {
@@ -179,7 +225,7 @@ section {
   top: 0;
   left: -35rem;
   height: 100vh;
-  background-color: var(--fourthColor);
+  background-color: rgba(255, 255, 255, 0);
   border-right: var(--border-bold);
   width: 35rem;
   padding: 3rem 2rem;
@@ -198,6 +244,7 @@ section {
   border-bottom: var(--border-bold);
   font-weight: bolder;
   font-size: 4.5rem;
+  color: var(--fourthColor);
 }
 
 .header .navbar {
@@ -209,11 +256,13 @@ section {
   font-size: 2.5rem;
   padding: 1.5rem;
   margin: 0.5rem;
+  color: var(--fourthColor);
 }
 
 .header .navbar a.active,
 .header .navbar a:hover {
   background-color: var(--secondColor);
+  color: var(--thirdColor);
 }
 
 .header .follow a {
@@ -221,6 +270,7 @@ section {
   margin: 0 1rem;
   cursor: pointer;
   transition: 0.6s linear !important;
+  color: var(--fourthColor);
 }
 
 .header .follow a:hover {
@@ -299,6 +349,7 @@ section {
 .content .box {
   margin: -1rem;
   text-transform: none;
+  color: var(--fourthColor);
 }
 
 .content .box:hover {
@@ -339,6 +390,7 @@ section {
   line-height: 2;
   font-size: 2rem;
   text-transform: none;
+  color: var(--fourthColor);
 }
 
 .about .biography .bio {
@@ -349,8 +401,8 @@ section {
   padding: 1rem 2rem;
   display: inline-block;
   margin: 1rem;
-  background-color: var(--fifthColor);
-  border: var(--border-light);
+  background-color: var(--fourthColor);
+  border: var(--border-lightV);
   word-break: break-all;
   font-size: 2.5rem;
   font-weight: normal;
@@ -469,6 +521,7 @@ section {
 .services .box-container .box i {
   font-size: 4rem;
   margin-bottom: 2rem;
+  color: var(--fourthColor);
 }
 
 .services .box-container .box h3 {
@@ -482,6 +535,7 @@ section {
 .services .box-container .box p {
   line-height: 2;
   font-size: 1.7rem;
+  color: var(--fourthColor);
 }
 
 .services .box-container .box:hover {
@@ -513,10 +567,12 @@ section {
   margin: 1rem 0;
   font-size: 2rem;
   font-weight: normal;
+  color: var(--fourthColor);
 }
 
 .portfolio .box-container .box span {
   font-size: 1.7rem;
+  color: var(--fourthColor);
 }
 
 .portfolio .box-container:hover .box {
@@ -575,31 +631,21 @@ section {
   height: 7rem;
   width: 7rem;
   line-height: 7rem;
-  color: var(--fourthColor);
-  background-color: var(--thirdColor);
+  color: var(--thirdColor);
+  background-color: var(--fourthColor);
   margin-bottom: 0.5rem;
 }
 
 .contact .box-container .box h3 {
   margin: 1.5rem 0;
   font-size: 2.5rem;
+  color: var(--fourthColor);
 }
 
 .contact .box-container .box p {
   font-size: 2rem;
   text-transform: none;
-}
-
-.csecondColorit {
-  text-align: center;
-  background-color: var(--thirdColor);
-  padding: 3rem;
-  font-size: 2rem;
   color: var(--fourthColor);
-}
-
-.csecondColorit span {
-  color: var(--firstColor);
 }
 
 /* FOOTER SECTION */
@@ -608,22 +654,27 @@ section {
   max-width: 90%;
   margin: auto;
 }
+
 .footer .container .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .footer .container .row ul {
   list-style: none;
 }
+
 .footer {
   background-color: #24262b;
   padding-top: 2.5rem;
 }
+
 .footer-col {
   width: 30%;
   padding: 0 15px;
 }
+
 .footer-col h4 {
   font-size: 18px;
   color: #ffffff;
@@ -632,6 +683,7 @@ section {
   font-weight: 500;
   position: relative;
 }
+
 .footer-col h4::before {
   content: "";
   position: absolute;
@@ -642,9 +694,11 @@ section {
   box-sizing: border-box;
   width: 50px;
 }
+
 .footer-col ul li:not(:last-child) {
   margin-bottom: 10px;
 }
+
 .footer-col ul li a {
   font-size: 1.6rem;
   text-transform: capitalize;
@@ -655,6 +709,7 @@ section {
   display: block;
   transition: all 0.3s ease;
 }
+
 .footer-col ul li a:hover {
   /* background: var(--gradient); */
   color: var(--secondColor);
@@ -662,6 +717,7 @@ section {
   background-clip: text; */
   padding-left: 8px;
 }
+
 .footer-col .social-links a {
   display: inline-block;
   height: 40px;
@@ -674,6 +730,7 @@ section {
   color: #ffffff;
   transition: all 0.5s ease;
 }
+
 .footer-col .social-links a:hover {
   color: #24262b;
   background: var(--secondColor);
