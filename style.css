@@ -524,6 +524,12 @@ section {
 
 /* media queries  */
 
+@media (max-width: 1280px) {
+  .home {
+    margin-top: 2.5rem;
+  }
+}
+
 @media (max-width: 1118px) {
   .home .content {
     text-align: center;
